@@ -208,10 +208,7 @@ final class MCPWebHandler {
         }
 
         do {
-            // Use nonisolated(unsafe) to allow passing to nonisolated execute method
-            nonisolated(unsafe) let unsafeTool = tool
-            nonisolated(unsafe) let unsafeArgs = arguments
-            let result = try await unsafeTool.execute(arguments: unsafeArgs)
+            let result = try await tool.execute(arguments: arguments)
             return .success(result)
         } catch {
             return .error(error.localizedDescription)
