@@ -15,7 +15,7 @@ let package = Package(
             targets: ["MCPWebKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Sunalamye/MCPKit.git", from: "0.2.0"),
+        .package(url: "https://github.com/Sunalamye/MCPKit.git", from: "0.2.1"),
         .package(url: "https://github.com/Sunalamye/WebViewBridge.git", from: "0.1.0"),
     ],
     targets: [

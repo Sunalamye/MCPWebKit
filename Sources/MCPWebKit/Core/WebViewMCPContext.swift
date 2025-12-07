@@ -7,14 +7,14 @@
 //
 
 import Foundation
-@preconcurrency import MCPKit
+import MCPKit
 
 // MARK: - WebView MCP Context
 
 /// WebView 專用的 MCP 上下文實現
 /// 提供 JavaScript 執行和日誌功能
 @MainActor
-public final class WebViewMCPContext: @preconcurrency MCPContext {
+public final class WebViewMCPContext: MCPContext {
 
     // MARK: - Properties
 
