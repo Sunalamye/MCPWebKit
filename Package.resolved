@@ -1,0 +1,24 @@
+{
+  "originHash" : "009b547d3db2df3cfa596629d2790585c60e10d28fc0a707ac5857c43b503cd5",
+  "pins" : [
+    {
+      "identity" : "mcpkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Sunalamye/MCPKit.git",
+      "state" : {
+        "revision" : "b1de9298c569d7ed6cefded3ee066db5ff63d13d",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "webviewbridge",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Sunalamye/WebViewBridge.git",
+      "state" : {
+        "revision" : "e2eb64210d0d0972a0945799907de046a71c5f31",
+        "version" : "0.1.1"
+      }
+    }
+  ],
+  "version" : 3
+}
